@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#064e3b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)"/>
+  <g opacity="0.05" stroke="white" stroke-width="1">
+    <line x1="0" y1="0" x2="0" y2="500"/><line x1="80" y1="0" x2="80" y2="500"/>
+    <line x1="160" y1="0" x2="160" y2="500"/><line x1="240" y1="0" x2="240" y2="500"/>
+    <line x1="320" y1="0" x2="320" y2="500"/><line x1="400" y1="0" x2="400" y2="500"/>
+    <line x1="480" y1="0" x2="480" y2="500"/><line x1="560" y1="0" x2="560" y2="500"/>
+    <line x1="640" y1="0" x2="640" y2="500"/><line x1="720" y1="0" x2="720" y2="500"/>
+  </g>
+  <!-- Chart line background -->
+  <path d="M0,400 Q100,380 200,350 T400,280 T600,200 T800,150" fill="none" stroke="white" stroke-width="2" opacity="0.08"/>
+  <path d="M0,420 Q100,400 200,370 T400,300 T600,230 T800,180" fill="none" stroke="white" stroke-width="1" opacity="0.05"/>
+  <!-- Dashboard -->
+  <rect x="150" y="100" width="500" height="300" rx="12" fill="#0a0a0a" opacity="0.7"/>
+  <rect x="150" y="100" width="500" height="40" rx="12" fill="#022c22"/>
+  <circle cx="175" cy="120" r="6" fill="#ef4444"/>
+  <circle cx="195" cy="120" r="6" fill="#eab308"/>
+  <circle cx="215" cy="120" r="6" fill="#22c55e"/>
+  <text x="400" y="125" font-family="sans-serif" font-size="12" fill="#6b7280" text-anchor="middle">Stock Market Tracker</text>
+  <!-- Stock tickers -->
+  <rect x="170" y="155" width="105" height="55" rx="8" fill="#064e3b" opacity="0.5"/>
+  <text x="222" y="173" font-family="sans-serif" font-size="10" fill="#6ee7b7" text-anchor="middle" font-weight="bold">AAPL</text>
+  <text x="222" y="190" font-family="sans-serif" font-size="13" fill="white" text-anchor="middle">$178.52</text>
+  <text x="222" y="203" font-family="sans-serif" font-size="9" fill="#22c55e" text-anchor="middle">+2.34%</text>
+  <rect x="290" y="155" width="105" height="55" rx="8" fill="#064e3b" opacity="0.5"/>
+  <text x="342" y="173" font-family="sans-serif" font-size="10" fill="#6ee7b7" text-anchor="middle" font-weight="bold">GOOGL</text>
+  <text x="342" y="190" font-family="sans-serif" font-size="13" fill="white" text-anchor="middle">$141.80</text>
+  <text x="342" y="203" font-family="sans-serif" font-size="9" fill="#22c55e" text-anchor="middle">+1.12%</text>
+  <rect x="410" y="155" width="105" height="55" rx="8" fill="#064e3b" opacity="0.5"/>
+  <text x="462" y="173" font-family="sans-serif" font-size="10" fill="#6ee7b7" text-anchor="middle" font-weight="bold">TSLA</text>
+  <text x="462" y="190" font-family="sans-serif" font-size="13" fill="white" text-anchor="middle">$248.42</text>
+  <text x="462" y="203" font-family="sans-serif" font-size="9" fill="#ef4444" text-anchor="middle">-0.87%</text>
+  <rect x="530" y="155" width="105" height="55" rx="8" fill="#064e3b" opacity="0.5"/>
+  <text x="582" y="173" font-family="sans-serif" font-size="10" fill="#6ee7b7" text-anchor="middle" font-weight="bold">AMZN</text>
+  <text x="582" y="190" font-family="sans-serif" font-size="13" fill="white" text-anchor="middle">$178.25</text>
+  <text x="582" y="203" font-family="sans-serif" font-size="9" fill="#22c55e" text-anchor="middle">+3.21%</text>
+  <!-- Candlestick chart -->
+  <rect x="170" y="225" width="460" height="160" rx="8" fill="#0f172a" opacity="0.5"/>
+  <text x="190" y="248" font-family="sans-serif" font-size="10" fill="#6ee7b7" font-weight="bold">AAPL - Daily Chart</text>
+  <!-- Grid lines -->
+  <line x1="180" y1="260" x2="620" y2="260" stroke="#1f2937" stroke-width="0.5"/>
+  <line x1="180" y1="290" x2="620" y2="290" stroke="#1f2937" stroke-width="0.5"/>
+  <line x1="180" y1="320" x2="620" y2="320" stroke="#1f2937" stroke-width="0.5"/>
+  <line x1="180" y1="350" x2="620" y2="350" stroke="#1f2937" stroke-width="0.5"/>
+  <!-- Candlesticks -->
+  <rect x="200" y="280" width="6" height="30" rx="1" fill="#22c55e"/><line x1="203" y1="270" x2="203" y2="315" stroke="#22c55e" stroke-width="1"/>
+  <rect x="220" y="295" width="6" height="20" rx="1" fill="#ef4444"/><line x1="223" y1="285" x2="223" y2="320" stroke="#ef4444" stroke-width="1"/>
+  <rect x="240" y="270" width="6" height="35" rx="1" fill="#22c55e"/><line x1="243" y1="260" x2="243" y2="310" stroke="#22c55e" stroke-width="1"/>
+  <rect x="260" y="285" width="6" height="25" rx="1" fill="#22c55e"/><line x1="263" y1="275" x2="263" y2="315" stroke="#22c55e" stroke-width="1"/>
+  <rect x="280" y="290" width="6" height="30" rx="1" fill="#ef4444"/><line x1="283" y1="280" x2="283" y2="325" stroke="#ef4444" stroke-width="1"/>
+  <rect x="300" y="265" width="6" height="35" rx="1" fill="#22c55e"/><line x1="303" y1="255" x2="303" y2="305" stroke="#22c55e" stroke-width="1"/>
+  <rect x="320" y="260" width="6" height="25" rx="1" fill="#22c55e"/><line x1="323" y1="250" x2="323" y2="290" stroke="#22c55e" stroke-width="1"/>
+  <rect x="340" y="275" width="6" height="30" rx="1" fill="#ef4444"/><line x1="343" y1="265" x2="343" y2="310" stroke="#ef4444" stroke-width="1"/>
+  <rect x="360" y="255" width="6" height="35" rx="1" fill="#22c55e"/><line x1="363" y1="245" x2="363" y2="295" stroke="#22c55e" stroke-width="1"/>
+  <rect x="380" y="250" width="6" height="20" rx="1" fill="#22c55e"/><line x1="383" y1="240" x2="383" y2="275" stroke="#22c55e" stroke-width="1"/>
+  <rect x="400" y="260" width="6" height="25" rx="1" fill="#ef4444"/><line x1="403" y1="250" x2="403" y2="290" stroke="#ef4444" stroke-width="1"/>
+  <rect x="420" y="240" width="6" height="30" rx="1" fill="#22c55e"/><line x1="423" y1="230" x2="423" y2="275" stroke="#22c55e" stroke-width="1"/>
+  <rect x="440" y="235" width="6" height="20" rx="1" fill="#22c55e"/><line x1="443" y1="225" x2="443" y2="260" stroke="#22c55e" stroke-width="1"/>
+  <rect x="460" y="245" width="6" height="25" rx="1" fill="#ef4444"/><line x1="463" y1="235" x2="463" y2="275" stroke="#ef4444" stroke-width="1"/>
+  <rect x="480" y="230" width="6" height="30" rx="1" fill="#22c55e"/><line x1="483" y1="220" x2="483" y2="265" stroke="#22c55e" stroke-width="1"/>
+  <rect x="500" y="225" width="6" height="20" rx="1" fill="#22c55e"/><line x1="503" y1="215" x2="503" y2="250" stroke="#22c55e" stroke-width="1"/>
+  <rect x="520" y="235" width="6" height="25" rx="1" fill="#ef4444"/><line x1="523" y1="225" x2="523" y2="265" stroke="#ef4444" stroke-width="1"/>
+  <rect x="540" y="220" width="6" height="30" rx="1" fill="#22c55e"/><line x1="543" y1="210" x2="543" y2="255" stroke="#22c55e" stroke-width="1"/>
+  <rect x="560" y="215" width="6" height="20" rx="1" fill="#22c55e"/><line x1="563" y1="205" x2="563" y2="240" stroke="#22c55e" stroke-width="1"/>
+  <rect x="580" y="225" width="6" height="25" rx="1" fill="#ef4444"/><line x1="583" y1="215" x2="583" y2="255" stroke="#ef4444" stroke-width="1"/>
+  <rect x="600" y="210" width="6" height="25" rx="1" fill="#22c55e"/><line x1="603" y1="200" x2="603" y2="240" stroke="#22c55e" stroke-width="1"/>
+  <!-- Title -->
+  <text x="400" y="455" font-family="sans-serif" font-size="28" fill="white" text-anchor="middle" font-weight="bold">Stock Market Tracker</text>
+  <text x="400" y="480" font-family="sans-serif" font-size="14" fill="#6ee7b7" text-anchor="middle">Real-Time Market Data Dashboard</text>
+</svg>
